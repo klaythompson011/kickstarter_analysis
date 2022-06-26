@@ -15,7 +15,7 @@ Before analyzing the data, additional columns were added to the file. They inclu
 
 2.	Parent Category and Subcategory: As the category and subcategory information was shown in one column, two new columns with the above headings were added to the file to separate the data into the corresponding categories using the “Text to Columns” button. 
 
-3.	Years: This column was added to show the launch year using the formula Year(J2). 
+3.	Years: This column was added to show the launch year using the formula = Year(J2). 
 
 ### Analysis
 
