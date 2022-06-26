@@ -26,7 +26,7 @@ The first analysis focused on the theater outcomes by launch date. A pivot table
 
 The second analysis focused on the outcomes for plays based on goals. For this analysis, additional calculations were performed. The goal amount was broken out into different tiers, for example, “Less than 1000”, “1000 to 4999”, “5000 to 9999”, etc. The formula “COUNTIFS” was used to determine the number of successful, failed and canceled campaigns for each corresponding tier. Total campaigns were added based on tier and then the percentage of successful, failed and canceled campaigns was calculated for each tier. A line chart was created to show the correlation between outcomes and goals. The challenge for this part of the analysis included a.) ensuring that tier amounts were correctly shown in the COUNTIFS formula, and b.) that formulas were copied and updated correctly, as needed, from cell to cell.  
 
-![Outcomes_vs_Goals](Outcomer_vs_Goals.png)
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
 ### Results
 
