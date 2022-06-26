@@ -22,7 +22,6 @@ Before analyzing the data, additional columns were added to the file. They inclu
 ##### 
 The first analysis focused on the theater outcomes by launch date. A pivot table along with a line chart were created to show the correlation between the outcomes (i.e. successful, failed, and canceled) and the month in which the campaign was launched. Filters and sorts were done in the pivot table, which updated the line chart automatically, and easily allowed specific data to be presented. 
 
-![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 
 The second analysis focused on the outcomes for plays based on goals. For this analysis, additional calculations were performed. The goal amount was broken out into different tiers, for example, “Less than 1000”, “1000 to 4999”, “5000 to 9999”, etc. The formula “COUNTIFS” was used to determine the number of successful, failed and canceled campaigns for each corresponding tier. Total campaigns were added based on tier and then the percentage of successful, failed and canceled campaigns was calculated for each tier. A line chart was created to show the correlation between outcomes and goals. The challenge for this part of the analysis included a.) ensuring that tier amounts were correctly shown in the COUNTIFS formula, and b.) that formulas were copied and updated correctly, as needed, from cell to cell.  
 
